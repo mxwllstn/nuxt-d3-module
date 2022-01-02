@@ -8,7 +8,7 @@ nuxt module that adds required **d3** build options and injects **d3** into `$ro
 # install dependencies
 $ yarn install
 
-# run example dependencies
+# run example app with module
 $ yarn dev
 
 # build module
