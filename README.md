@@ -1,6 +1,6 @@
 # nuxt-d3
 
-nuxt module that adds required **d3** build options and injects **d3** into `$root` & `context` (accessible with `$this.d3`)
+Nuxt module that adds required **D3** build options and injects **D3** into `$root` & `context` (accessible with `$this.d3`)
 
 ## Build Setup
 
