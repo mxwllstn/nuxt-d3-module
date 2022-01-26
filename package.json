@@ -17,8 +17,8 @@
     "url": "https://github.com/mxwllstn/nuxt-d3.git"
   },
   "dependencies": {
-    "d3": "^7.2.1",
-    "@types/d3": "^7.1.0"
+    "@types/d3": "^7.1.0",
+    "d3": "^7.2.1"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.8",
