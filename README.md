@@ -1,22 +1,22 @@
-# nuxt-d3
+# nuxt-d3-module
 
 Nuxt module that adds required **D3** build options and injects **D3** into `$root` & `context` (accessible with `$this.d3`)
 
 ## Install
 Use `yarn` to install the module
 ```bash
-yarn add nuxt-d3
+yarn add nuxt-d3-module
 ```
 Or use `npm` to install the module
 ```bash
-npm install nuxt-d3
+npm install nuxt-d3-module
 ```
 
 ## Usage
 #### nuxt.config.js
 ```javascript
 {
-  modules: ['nuxt-d3']
+  modules: ['nuxt-d3-module']
 }
 ```
 
