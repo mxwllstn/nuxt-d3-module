@@ -3,27 +3,27 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "Max Stein <maxwell.stein@gmail.com> (https://maxstein.net",
+  "license": "MIT",
+  "description": "Nuxt module that adds required D3 build options and injects D3 into $root & context (accessible with $this.d3)",
   "scripts": {
     "dev": "nuxt example",
     "build": "npx tsc",
     "lint": "eslint --fix ./src/index.ts",
     "postinstall": "yarn build"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mxwllstn/nuxt-d3.git"
   },
   "dependencies": {
-    "d3": "^7.2.1"
+    "d3": "^7.2.1",
+    "@types/d3": "^7.1.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.8",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/module-test-utils": "^1.6.3",
-    "@types/d3": "^7.1.0",
     "@types/node": "^16.11.11",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
@@ -52,5 +52,13 @@
   "resolutions": {
     "**/@typescript-eslint/eslint-plugin": "^4.6.1",
     "**/@typescript-eslint/parser": "^4.6.1"
-  }
+  },
+  "keywords": [
+    "nuxt",
+    "vue",
+    "d3",
+    "svg",
+    "visualization",
+    "typescript"
+  ]
 }
