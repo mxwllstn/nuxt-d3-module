@@ -1,5 +1,5 @@
 import { Module } from '@nuxt/types'
-import path from 'path'
+import { resolve } from 'path'
 
 declare global {
   interface Console {
@@ -17,7 +17,7 @@ export default <Module>function () {
 
     /* add d3 plugin that injects as this.$d3 */
     this.addPlugin({
-      src: path.resolve(__dirname, 'plugin.js'),
+      src: resolve(__dirname, '../dist/plugin.js'),
       fileName: 'd3.js'
     })
   } catch (error) {
