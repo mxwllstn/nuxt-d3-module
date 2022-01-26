@@ -7,7 +7,7 @@
   "license": "MIT",
   "description": "Nuxt module that adds required D3 build options and injects D3 into $root & context (accessible with $this.d3)",
   "scripts": {
-    "dev": "nuxt example",
+    "dev": "yarn build && nuxt example",
     "build": "npx tsc",
     "lint": "eslint --fix ./src/index.ts",
     "postinstall": "yarn build"
