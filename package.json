@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-d3",
+  "name": "nuxt-d3-module",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mxwllstn/nuxt-d3.git"
+    "url": "https://github.com/mxwllstn/nuxt-d3-module.git"
   },
   "dependencies": {
     "@types/d3": "^7.1.0",
