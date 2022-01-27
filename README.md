@@ -1,5 +1,5 @@
 # nuxt-d3-module
-[![Version](https://img.shields.io/npm/v/nuxt-d3-module-js.svg)](https://www.npmjs.org/package/nuxt-d3-module)
+[![Version](https://img.shields.io/npm/v/nuxt-d3-module.svg)](https://www.npmjs.org/package/nuxt-d3-module)
 
 Nuxt module that adds required **D3** build options and injects **D3** into `$root` & `context` (accessible with `$this.d3`)
 
