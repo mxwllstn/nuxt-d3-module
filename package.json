@@ -1,6 +1,6 @@
 {
   "name": "nuxt-d3-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Max Stein <maxwell.stein@gmail.com> (https://maxstein.net",
@@ -18,10 +18,10 @@
   },
   "dependencies": {
     "@types/d3": "^7.1.0",
-    "d3": "^7.2.1"
+    "d3": "^7.2.1",
+    "@nuxt/types": "^2.15.8"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.8",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/module-test-utils": "^1.6.3",
     "@types/node": "^16.11.11",
