@@ -1,11 +1,14 @@
 {
   "name": "nuxt-d3-module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Max Stein <maxwell.stein@gmail.com> (https://maxstein.net",
   "license": "MIT",
   "description": "Nuxt module that adds required D3 build options and injects D3 into $root & context (accessible with $this.d3)",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "yarn build && nuxt example",
     "build": "npx tsc",
