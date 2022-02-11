@@ -1,6 +1,6 @@
 {
   "name": "nuxt-d3-module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Max Stein <maxwell.stein@gmail.com> (https://maxstein.net",
@@ -10,21 +10,20 @@
     "dev": "yarn build && nuxt example",
     "build": "npx tsc",
     "lint": "eslint --fix ./src/index.ts",
-    "postinstall": "yarn build"
+    "prepublish": "yarn lint && yarn build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mxwllstn/nuxt-d3-module.git"
   },
   "dependencies": {
-    "@nuxt/types": "^2.15.8",
-    "@types/d3": "^7.1.0",
-    "d3": "^7.2.1",
-    "typescript": "^4.3.2"
+    "d3": "^7.2.1"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.15.8",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/module-test-utils": "^1.6.3",
+    "@types/d3": "^7.1.0",
     "@types/node": "^16.11.11",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
@@ -36,7 +35,8 @@
     "eslint-plugin-standard": "^5.0.0",
     "lint-staged": "^11.0.0",
     "nuxt-edge": "^2.16.0-27309615.ab1c6cb4",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.1",
+    "typescript": "^4.3.2"
   },
   "engines": {
     "node": "^14.17"
